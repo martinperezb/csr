@@ -365,20 +365,22 @@ header {
     color: #544CB9;
     font-weight: 600;
     margin-bottom: 24px;
+    border-bottom: 1px solid #495057;
 }
 .tabs p {
     display: flex;
     align-items: center;
     padding: 0 0 0 10px;
+    border-bottom-color: transparent;
 }
 .tabs p:nth-child(1) {
-    border-top: 1px solid #544CB9;
-    border-left: 1px solid #544CB9;
-    border-right: 1px solid #544CB9;
+    border: 1px solid #544CB9;
+    background-color: #FFFFFF;
+    border-bottom-color: transparent;
     border-radius: 4px 4px 0 0;
     padding-right: 8px;
 }
 .tabs p:nth-child(2) {
-    border-bottom: 1px solid #CED4DA;
+    color: #495057;
     padding-right: 8px;
 }
