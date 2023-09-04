@@ -5,6 +5,9 @@
     border: 0;
     font-family: 'Montserrat';
 }
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
 h1 {
     font-size: 18px;
     font-weight: 600;
@@ -383,4 +386,31 @@ header {
 .tabs p:nth-child(2) {
     color: #495057;
     padding-right: 8px;
+}
+.main {
+    width: 500px;
+    height: 372px;
+    color: #212529;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.main div {
+    display: flex;
+    text-align: center;
+    font-size: 16px;
+}
+.main button {
+    width: 200px;
+    height: 38px;
+    background-color: #544CB9;
+    color: #FFFFFF;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
 }
